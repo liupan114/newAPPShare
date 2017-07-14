@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>餐厅页 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="../css/share2.css">
+	<link rel="stylesheet" href="../css/mbSlider.min.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+</head>
+<body>
+
+<div class="mb-container">
+	<div class="mb-wrapper">
+		<div class="mb-slide"><img src="../img/1.pic_hd.jpg" alt=""></div>
+		<div class="mb-slide"><img src="../img/2.pic_hd.jpg" alt=""></div>
+		<div class="mb-slide"><img src="../img/3.pic_hd.jpg" alt=""></div>
+		<div class="mb-slide"><img src="../img/4.pic_hd.jpg" alt=""></div>
+		<div class="mb-slide"><img src="../img/5.pic_hd.jpg" alt=""></div>
+	</div>
+</div>
+
+<div class="res_infoCard">
+	<div class="res">
+		<p class="res_name" onclick="play()">荞麦道日本料理</p>
+		<p class="span"><span>日本菜</span><span>人均112元</span><span>时间 9:00 - 19:00周一至周日</span></p>
+		<div class="zan"><span></span><span>2</span></div>
+	</div>
+	<ul class="res_info">
+		<li onclick="gotomap()"><icon> > </icon>虹桥区吴淞路107号</li>
+		<li><icon> > </icon>021-6216616</li>
+		<li class="li_img"><icon> > </icon>
+			<img src="" alt="" style="position: relative; z-index: 999" ><img src="../img/avatar.jpg" alt="" style=" position:relative; z-index: 888"><img src="../img/avatar.jpg" alt="" style="position: relative;z-index: 777"><img src="../img/avatar.jpg" alt="" style="position: relative;z-index: 666">
+		</li>
+	</ul>
+</div>
+
+
+<div class="top_list vip_list">
+	<div class="top_name" >金牌饭搭子点评<br><span class="top_list_num"></span>
+	</div>
+</div>
+
+
+<div class="message_list vip_message_list" >
+	<div class="user_avatar_name">
+		<img src="../img/avatar.jpg" alt="who im i" >
+		<p class="user_name">艾格吃饱了</p>
+		<div class="_dian_zan"><span class="header_sanjiao"></span><span class="header_num">232</span></div>
+	</div>
+	<p class="detail_text" >美食广场，又称为熟食中心、美食街、食阁等，流行于香港、台湾、新加坡等地，指多间食肆聚集的地方，提供各种各样的美食，桌椅则由各食肆共用。美食广场多数是固定的地方，久而久之形成独特的美食集中地，是游客经常光顾的地方。</p>
+	<div class="img_box_message">
+		<img src="../img/1.pic_hd.jpg" alt="">
+		<img src="../img/2.pic_hd.jpg" alt="">
+		<img src="../img/3.pic_hd.jpg" alt="">
+
+	</div>
+	<p class="dish_name"><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span><span >#清江鱼</span></p>
+	<p class="global"> <span>#人少安静</span> <span>#人多热闹</span></p>
+
+</div>
+
+<div class="message_list vip_message_list" >
+
+	<div class="user_avatar_name">
+		<img src="../img/avatar.jpg" alt="who im i" >
+		<p class="user_name">艾格吃饱了2</p>
+		<div class="_dian_zan"><span class="header_sanjiao"></span><span class="header_num">232</span></div>
+
+	</div>
+	<p class="detail_text" >美食广场，又称为熟食中心、美食街、食阁等，流行于香港、台湾、新加坡等地，指多间食肆聚集的地方，提供各种各样的美食，桌椅则由各食肆共用。美食广场多数是固定的地方，久而久之形成独特的美食集中地，是游客经常光顾的地方。</p>
+	<div class="img_box_message">
+		<img src="../img/1.pic_hd.jpg" alt="">
+		<img src="../img/2.pic_hd.jpg" alt="">
+		<img src="../img/3.pic_hd.jpg" alt="">
+	</div>
+	<p class="dish_name"><span class="">#清江鱼</span></p>
+	<p class="global"> <span>#人少安静</span> <span>#人多热闹</span></p>
+
+</div>
+<div class="message_list vip_message_list" >
+	<div class="user_avatar_name">
+		<img src="../img/avatar.jpg" alt="who im i" >
+		<p class="user_name">艾格吃饱了3</p>
+		<div class="_dian_zan"><span class="header_sanjiao"></span><span class="header_num">232</span></div>
+
+	</div>
+	<p class="detail_text" >美食广场，又称为熟食中心、美食街、食阁等，流行于香港、台湾、新加坡等地，指多间食肆聚集的地方，提供各种各样的美食，桌椅则由各食肆共用。美食广场多数是固定的地方，久而久之形成独特的美食集中地，是游客经常光顾的地方。</p>
+	<div class="img_box_message">
+		<img src="../img/1.pic_hd.jpg" alt="">
+		<img src="../img/2.pic_hd.jpg" alt="">
+		<img src="../img/3.pic_hd.jpg" alt="">
+	</div>
+	<p class="dish_name"><span class="">#清江鱼</span></p>
+	<p class="global"> <span>#人少安静</span> <span>#人多热闹</span></p>
+
+</div>
+<div class="bar">更多金牌饭搭子点评</div>
+
+<!--下面为普通用户的点评-->
+<div class="top_list average_top_list">
+	<div class="top_name" >饭搭子点评<br><span class="top_list_num">1条</span>
+	</div>
+</div>
+<div class="message_list average_message_list" >
+	<div class="user_avatar_name">
+		<img src="../img/avatar.jpg" alt="who im i" >
+		<p class="user_name">艾格吃饱了</p>
+	</div>
+	<p class="detail_text" >美食广场，又称为熟食中心、美食街、食阁等，流行于香港、台湾、新加坡等地，指多间食肆聚集的地方，提供各种各样的美食，桌椅则由各食肆共用。美食广场多数是固定的地方，久而久之形成独特的美食集中地，是游客经常光顾的地方。</p>
+	<div class="img_box_message">
+		<img src="../img/1.pic_hd.jpg" alt="">
+		<img src="../img/2.pic_hd.jpg" alt="">
+		<img src="../img/3.pic_hd.jpg" alt="">
+	</div>
+	<p class="dish_name"><span class="">#清江鱼</span></p>
+	<p class="global"> <span>#人少安静</span> <span>#人多热闹</span></p>
+</div>
+<div class="message_list average_message_list" >
+	<div class="user_avatar_name">
+		<img src="../img/avatar.jpg" alt="who im i" >
+		<p class="user_name">艾格吃饱了</p>
+	</div>
+	<p class="detail_text" >美食广场，又称为熟食中心、美食街、食阁等，流行于香港、台湾、新加坡等地，指多间食肆聚集的地方，提供各种各样的美食，桌椅则由各食肆共用。美食广场多数是固定的地方，久而久之形成独特的美食集中地，是游客经常光顾的地方。</p>
+	<div class="img_box_message">
+		<img src="../img/1.pic_hd.jpg" alt="">
+		<img src="../img/2.pic_hd.jpg" alt="">
+		<img src="../img/3.pic_hd.jpg" alt="">
+	</div>
+	<p class="dish_name"><span class="">#清江鱼</span></p>
+	<p class="global"> <span>#人少安静</span> <span>#人多热闹</span></p>
+</div>
+<div class="message_list average_message_list" >
+	<div class="user_avatar_name">
+		<img src="../img/avatar.jpg" alt="who im i" >
+		<p class="user_name">艾格吃饱了</p>
+	</div>
+	<p class="detail_text" >美食广场，又称为熟食中心、美食街、食阁等，流行于香港、台湾、新加坡等地，指多间食肆聚集的地方，提供各种各样的美食，桌椅则由各食肆共用。美食广场多数是固定的地方，久而久之形成独特的美食集中地，是游客经常光顾的地方。</p>
+	<div class="img_box_message">
+		<img src="../img/1.pic_hd.jpg" alt="">
+		<img src="../img/2.pic_hd.jpg" alt="">
+		<img src="../img/3.pic_hd.jpg" alt="">
+	</div>
+	<p class="dish_name"><span class="">#清江鱼</span></p>
+	<p class="global"> <span>#人少安静</span> <span id="send">#人多热闹</span></p>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/mbSlider.min.js"></script>
+<script src="../js/resize.js"></script>
+<script src="../js/share2.js" ></script>
+<script src="../mobile.js"></script>
+<script src="../test.js"></script>

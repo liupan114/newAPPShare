@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>餐厅页 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/share2.css">
+    <link rel="stylesheet" href="../css/mbSlider.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+
+<div class="mb-container">
+    <div class="mb-wrapper">
+        <div class="mb-slide " id="slide"><img src="../img/1.pic_hd.jpg" alt=""></div>
+    </div>
+</div>
+
+
+
+<div class="res_infoCard">
+    <div class="res">
+        <p class="res_name" onclick="play()"></p>
+        <p class="span"><span class="small_cate"></span><span class="renjun"></span ><span class="work_time"></span></p>
+        <div class="zan"><span></span><span class="like_num"></span></div>
+    </div>
+    <ul class="res_info">
+        <li onclick="gotomap()"><icon> > </icon><span class="address">$address$</span></li>
+        <li class="Tel"><icon> > </icon><span id="Tel">021-6216616</span></li>
+        <li class="li_img"><icon> > </icon>
+            <img src="" alt="" style="position: relative; z-index: 999" ><img src="" alt="" style=" position:relative; z-index: 888"><img src="" alt="" style="position: relative;z-index: 777"><img src="" alt="" style="position: relative;z-index: 666">
+        </li>
+    </ul>
+</div>
+
+<div class="top_list vip_list">
+    <div class="top_name" >金牌饭搭子点评<br><span class="top_list_num"></span>
+    </div>
+</div>
+<textarea style="display: none;">
+<div class="message_list vip_message_list" >
+    <div class="user_avatar_name">
+        <img src='$small_url$' alt="who im i" >
+        <p class="user_name">$nick_name$</p>
+        <div class="_dian_zan"><span class="header_sanjiao"></span><span class="header_num">$like_num$</span></div>
+    </div>
+    <p class="detail_text" >$content$</p>
+    <div class="img_box_message">
+        <img src="$tags_img1$" alt=""><img src="$tags_img2$" alt=""><img src="$tags_img3$" alt="">
+    </div>
+    <p class="dish_name"><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><br><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span><span >$tags_name$</span></p>
+    <p class="global"><span>$tags_type_name$</span><span>$tags_type_name$</span><span>$tags_type_name$</span><span>$tags_type_name$</span></p>
+</div>
+</textarea>
+<div class="vip_user_container"></div>
+<div class="top_list normal_list">
+    <div class="top_name" >饭搭子点评<br><span class="top_list_num"></span>
+    </div>
+</div>
+<div class="normal_user-container"></div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/mbSlider.min.js"></script>
+<script src="../js/resize.js"></script>
+<script src="../mobile.js"></script>
+<script type="text/javascript" src="../test.js"></script>
+
+

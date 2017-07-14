@@ -1,0 +1,224 @@
+html[data-dpr="2"] {
+    font-size: 32px;
+}
+html[data-dpr="2.5"] {
+    font-size: 40px;
+}
+html[data-dpr="2.75"] {
+    font-size: 44px;
+}
+html[data-dpr="3"] {
+    font-size: 48px;
+}
+html[data-dpr="3.5"] {
+    font-size: 48px;
+}
+html[data-dpr="4"] {
+    font-size: 64px;
+}
+/*----匹配多屏设备*/
+/*.header ,.content {*/
+   /*background: #f6f6f6;*/
+/*}*/
+/*body{*/
+    /*border:1px solid #000;*/
+/*}*/
+.header{
+    padding: 0.42rem auto;
+    position: relative;
+
+}
+.header .author_avatar {
+    display:inline-block;
+    margin-left:0.42rem;
+    margin-top: 0.42rem;
+}
+.header .author_avatar img{
+    width: 0.96rem;height: 0.96rem;
+    border-radius: 50%;
+}
+.header .author_info{
+    display: inline-block;
+    height: 0.96rem;
+    margin-left: 0.214rem;
+    margin-top: 0.42rem;
+
+    position: absolute;
+    top:0.18rem;
+}
+.header .author_info .name{
+    font-size: 0.373rem;
+    font-weight: 400;
+    color:#6eaabb;
+}
+
+.header .author_info .date_zan{
+    color:#acb5c2;
+    font-size: 0.266rem;
+
+}
+.header .dianzan{
+    margin-top: 0.42rem;
+    border-radius: 0.052rem;
+    background: #e4e4e4;
+    height:1rem;width: 1.5rem;
+    display: inline-block;
+    position: absolute;
+    right: 1.2rem;
+}
+.header .dianzan .header_num{
+    font-size: 0.32rem;
+    display: inline-block;
+    margin-left: 0.1rem;
+    position: absolute;
+    top:0.25rem;
+    right: 0.2rem;
+}
+.header .dianzan .header_sanjiao{
+    display: inline-block;
+    margin: 0rem 0.6rem  0.51rem 0.2rem;
+    width: 0;
+    height: 0;
+    border-width: 0.176rem;
+    border-style: solid;
+    border-color: transparent transparent #4a4a4a transparent;
+}
+/*-----*/
+.content{
+    padding-top: 0.613rem;
+    padding-bottom: 0.798rem;
+}
+.content .item{
+    font-size: 0.37332rem;
+
+}
+.content .item .top_text p{
+    font-size: 0.3782rem;
+    line-height: 0.532rem;
+    color:#313131;
+    padding: 0 0.4266rem;
+}
+.content .item .line{
+    width: 1.25rem;
+    height: 0.0266rem;
+    background: #e7e7e7;
+    margin: 0.8512rem auto;
+}
+
+
+.content .item img{
+    width: 100%;
+    height: 5.6rem;
+    background: #f7f7f7;
+}
+.content .item .cai{
+    margin-top: -0.16rem;
+}
+.content .item .cai span{
+    display: inline-block;
+    margin-top: 0.37332rem;
+    margin-left: 0.64rem;
+    padding: 0.065rem 0.133rem ;
+    background: #efefef;
+}
+
+.content .item .dish_name{
+    color: #e0502c;
+}
+.content .item .cai .dish_text{
+    text-align: left;
+    margin-left: .4266rem;
+    margin-top: 0.2rem;
+    background: #fff;
+}
+.content .item .global{
+    color: #5aacbd;
+    font-size: 0.37332rem;
+    margin-bottom: 0.373rem;
+}
+.content .item .global span{
+    display: inline-block;
+    margin-top: 0.37332rem;
+    margin-left: 0.64rem;
+    padding: 0.065rem 0.133rem ;
+    background: #efefef;
+}
+.content .item .global .global_text{
+    color: #313131;
+    text-align: left;
+    display: block;
+    margin-left: .4266rem;
+    margin-top: 0.2rem;
+    background: #fff;
+
+}
+
+
+.content .restaurant{
+    height: 2.82rem;
+    border-top:0.0266rem solid #f7f7f7;
+    position: relative;
+    font-size: 0.372rem;
+    margin: 0  0.4266rem ;
+    background: #fff;
+
+}
+.content .restaurant img{
+    width: 1.7rem ;height: 1.7rem;
+    display: inline-block;
+    margin-top: 0.5332rem;
+}
+.content .restaurant .res_name{
+    display: inline-block;
+    position: absolute;
+    top: 0.62rem;
+    left:2.218rem;
+}
+
+.content .restaurant p{
+    display: inline-block;
+    position: absolute;
+    top:1.224rem;
+    margin-left: 0.0852rem;
+}
+.content .restaurant span{
+    display: inline-block;
+    font-size: 0.32rem;
+    color: #b5b5b5;
+}
+
+.content .restaurant .juli{
+    width: 2.132rem;height: 0.852rem;
+    position: relative;
+    top: -0.4266rem;
+    left:4.6932rem;
+    display: inline-block;
+}
+.content .restaurant .juli img{
+    /*border:1px solid black;*/
+    display: inline-block;
+    width: 0.452rem;height: 0.452rem;
+    margin: 0.17rem auto 10px 5px;
+}
+.content .restaurant .juli span{
+    display: inline-block;
+    font-size: 0.32rem;
+    position: absolute;
+    top:0.17rem;
+    left:0.6rem;
+}
+
+
+.ge{
+    font-size: 0.42rem;
+    color:#b5b5b5;
+    background: #f4f5f6;
+    text-align: center;
+    padding-top: 1rem;
+    height: 8rem;
+}
+
+.ge_icon{
+    transform: rotate(90deg);
+    font-size: 0.373rem;
+}
